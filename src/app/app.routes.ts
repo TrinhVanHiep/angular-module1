@@ -1,0 +1,21 @@
+import { Routes } from '@angular/router';
+import { Exercise } from './exercise1/exercise1.component';
+import { Exercise2Component } from './exercise2/exercise2.component';
+import { Exercise3Component } from './exercise3/exercise3.component';
+import { Exercise4Component } from './exercise4/exercise4.component';
+import { Exercise5Component } from './exercise5/exercise5.component';
+import { Exercise6Component } from './exercise6/exercise6.component';
+import { Exercise7Component } from './exercise7/exercise7.component';
+import { Exercise8Component } from './exercise8/exercise8.component';
+import { Exercise9Component } from './exercise9/exercise9.component';
+export const routes: Routes = [
+    { path: 'Exercise1', component: Exercise },
+    { path: 'Exercise2', component: Exercise2Component },
+    { path: 'Exercise3', component: Exercise3Component },
+    { path: 'Exercise4', component: Exercise4Component },
+    { path: 'Exercise5', component: Exercise5Component },
+    { path: 'Exercise6', component: Exercise6Component },
+    { path: 'Exercise7', component: Exercise7Component },
+    { path: 'Exercise8', component: Exercise8Component },
+    { path: 'Exercise9', component: Exercise9Component },
+];
